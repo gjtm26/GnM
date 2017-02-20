@@ -1,0 +1,9 @@
+.header {
+	color: white;
+}
+.jumbotron {
+	height: 100vh;
+	background-image: url(https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/16806785_10154860038710569_364473609896874277_n.jpg?oh=f5a1ccc6cc99337639ec3f03358f1105&oe=59390582); 
+	background-size: cover
+}
+.h5 {}
