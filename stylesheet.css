@@ -1,9 +1,71 @@
+.navbar {
+	font-family: arial;
+	font-size: 18px;
+	padding: 30px 20px 0px 20px;
+	background: white;
+}
+.navbar li {
+  	display: inline;
+  	padding: 0px 20px;
+}
 .header {
 	color: white;
+	text-align: center;
+	font-family: arial black;
+	text-shadow: 1px 1px 2px black;
 }
 .jumbotron {
 	height: 100vh;
-	background-image: url(https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/16806785_10154860038710569_364473609896874277_n.jpg?oh=f5a1ccc6cc99337639ec3f03358f1105&oe=59390582); 
-	background-size: cover
+	background: url(https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/16806785_10154860038710569_364473609896874277_n.jpg?oh=f5a1ccc6cc99337639ec3f03358f1105&oe=59390582);
+	background-repeat: no-repeat;
+	background-position: 50% center;
+	background-size: cover;
+	margin: 40px, 0px, 0px, 0px;
+	border: 7px solid white;
+	border-radius: 20px;
 }
-.h5 {}
+.header {
+	font-family: arial black;
+}
+#complaints {
+	font-family: arial black;
+	text-align: center;
+	padding: 40px;
+}
+#about-social {
+	font-family: arial black;
+}
+#about {
+	background-color: #81DAFF;
+	height: 40vh;
+	align-content: center;
+	margin: 0px;
+	overflow: auto;
+}
+#about ul {
+  list-style-type: none;
+}
+#social {
+	background-color: grey;
+	height: 40vh;
+	margin: 0px;
+	overflow: auto;
+}
+.btn {
+	font-family: arial;
+}
+.btn-info {
+	background-color: #1da1f2;
+}
+.btn-linkedin {
+	background-color: #287bbc;
+	border-color: #1b5480;
+	color: white;
+}
+.img-icon {
+        border: 5px solid white;
+        border-radius: 100px;
+        max-height: 150px;
+        max-width: 150px;
+        margin: auto;
+}
