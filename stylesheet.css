@@ -1,17 +1,14 @@
 .navbar {
 	font-family: arial;
 	font-size: 18px;
-	padding: 30px 20px 0px 20px;
-	background: white;
 }
 .navbar li {
-  	display: inline;
-  	padding: 0px 20px;
+	display: inline;
+	padding: 0px 20px;
 }
 .header {
 	color: white;
 	text-align: center;
-	font-family: arial black;
 	text-shadow: 1px 1px 2px black;
 }
 .jumbotron {
@@ -24,32 +21,44 @@
 	border: 7px solid white;
 	border-radius: 20px;
 }
-.header {
-	font-family: arial black;
-}
 #complaints {
-	font-family: arial black;
 	text-align: center;
 	padding: 40px;
 }
-#about-social {
-	font-family: arial black;
+#complaints small {
+	color: #DE1E1E;
+}
+#help {
+	height: 20vh;
+	padding: 10px;
+	background: #31E24F;
+	color: black;
+	text-align: center;
 }
 #about {
-	background-color: #81DAFF;
-	height: 40vh;
+	background-color: #000000;
+	height: 45vh;
 	align-content: center;
 	margin: 0px;
 	overflow: auto;
+	text-align: center;
+	color: white;
 }
 #about ul {
-  list-style-type: none;
+	list-style-type: none;
+	text-shadow: 1px 1px 1px black;
+	margin: 2px;
 }
 #social {
 	background-color: grey;
-	height: 40vh;
+	height: 45vh;
 	margin: 0px;
 	overflow: auto;
+	text-align: center;
+}
+#social p {
+	color: white;
+	text-shadow: 1px 1px 1px black;
 }
 .btn {
 	font-family: arial;
@@ -63,9 +72,31 @@
 	color: white;
 }
 .img-icon {
-        border: 5px solid white;
-        border-radius: 100px;
-        max-height: 150px;
-        max-width: 150px;
-        margin: auto;
+	border: 5px solid white;
+	border-radius: 100px;
+	max-height: 150px;
+	max-width: 150px;
+	margin: 0px 20px 0px 20px;
+}
+#ts-cs {
+	margin: 10px 0px 0px 0px;
+	font-family: arial;
+	font-size: 10px;
+}
+.jumbotron-subpage {
+	height: 70vh;
+	background: url(https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/16806785_10154860038710569_364473609896874277_n.jpg?oh=f5a1ccc6cc99337639ec3f03358f1105&oe=59390582);
+	background-repeat: no-repeat;
+	background-position: 50% center;
+	background-size: cover;
+	margin: 40px, 0px, 0px, 0px;
+	border: 7px solid white;
+	border-radius: 20px;
+}
+.jumbotron-subpage .header{
+	margin: 60px;
+}
+.contact-form {
+	font-family: arial;
+	margin: 40px 100px 40px 100px;
 }
