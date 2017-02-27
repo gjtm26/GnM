@@ -7,49 +7,62 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-	<nav>
-		<ul>
-			<li><a href="homepage.html">Home</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-			<li><a href="contact.html">Contact Us</a></li>
-		</ul>
-	</div>
+	<div id="Nav_bar">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="homepage.html">Bored Games</a>
+			</div>
+			<div class="navbar-collapse collapse" style="height: 1px;">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="homepage.html">Home</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
 	</nav>
-	<div class="jumbotron-subpage">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="header">
-					<br><br>
-					<h1>Contact Us</h1>
+</div>
+		<div class="jumbotron-subpage">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="header">
+						<br><br>
+						<h1>Contact Us</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contact-form">
+			<div class="row">
+				<div class="col-md-12">
+					<form action="/action_page.php" method="post">
+						First name:<br>
+						<input type="text" name="firstname" placeholder="Mickey">
+						<br>
+						Last name:<br>
+						<input type="text" name="lastname" placeholder="Mouse">
+						<br>
+						Email address:<br>
+						<input type="email" name="email" placeholder="mickey.mouse@disney.com">
+						<br>
+						Message: <br>
+						<input type="text" name="message" placeholder="Your message goes here">
+						<br><br>
+						<input type="submit" value="Submit">
+					</form> 
+					<br><p>Press submit to send your details to the Bored Games team. <br> We will respond to you via email within seven days.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-<div class="contact-form">
-<div class="row">
-<div class="col-md-12">
-<form action="/action_page.php" method="post">
-  First name:<br>
-  <input type="text" name="firstname" value="Mickey">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Mouse">
-  <br>
-  Email address:<br>
-  <input type="email" name="email" value="mickey.mouse@disney.com">
-  <br>
-  Message: <br>
-  <input type="text" name="message" value="Your message goes here">
-  <br><br>
-  <input type="submit" value="Submit">
-</form> 
-<br><p>Press submit to send your details to the Bored Games team. <br> We will respond to you via email within seven days.</p>
-</div>
-</div>
-</div>
-
-
-<script type="text/javascript" href=jquery-3.1.1.min.js></script>
-<script type="text/javascript" href=jquery.js></script>
+	<script type="text/javascript" href=jquery-3.1.1.min.js></script>
+	<script type="text/javascript" href=jquery.js></script>
+</body>
+</html>
